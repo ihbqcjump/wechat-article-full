@@ -1,0 +1,29 @@
+# 依赖
+node_modules/
+package-lock.json
+yarn.lock
+
+# 临时文件
+tmp/
+*.log
+*.tmp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 测试输出
+test-output/
+*.json.output
+
+# 其他
+.env
+.<EMAIL_REMOVED>
