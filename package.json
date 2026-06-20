@@ -1,0 +1,23 @@
+{
+  "name": "wechat-article-full",
+  "version": "1.0.0",
+  "description": "微信公众号文章搜索 + 全文提取技能",
+  "main": "scripts/search_and_fetch.js",
+  "scripts": {
+    "search": "node scripts/search_and_fetch.js",
+    "test": "node scripts/search_and_fetch.js \"测试\" -n 1"
+  },
+  "keywords": [
+    "wechat",
+    "公众号",
+    "文章搜索",
+    "全文提取",
+    "skill",
+    "ai-agent"
+  ],
+  "author": "ihbqcjump",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
