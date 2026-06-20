@@ -1,0 +1,24 @@
+{
+  "name": "wechat-article-full",
+  "version": "1.0.0",
+  "description_zh": "搜索微信公众号文章并提取完整正文内容，支持搜索、URL解析、全文提取三合一",
+  "description_en": "Search WeChat public account articles and extract full content, with search, URL resolution, and full-text extraction",
+  "emoji": "\uD83D\uDCDC",
+  "examples_zh": [
+    "搜索「道医养生」相关的公众号文章，并提取前3篇的全文内容",
+    "帮我找最近关于「AI大模型免费」的公众号文章，要完整正文",
+    "搜索「竞品分析」公众号文章10篇，提取全文保存为JSON"
+  ],
+  "examples_en": [
+    "Search WeChat articles about 'DAO healing' and extract full content of top 3 results",
+    "Find recent WeChat articles about 'free AI models' with full text",
+    "Search 10 WeChat articles on 'competitor analysis' and save full content to JSON"
+  ],
+  "skillId": "skill_wechat_article_full_v1",
+  "source": "custom",
+  "iconSource": "letter:auto",
+  "requires": {
+    "bins": ["node"],
+    "npm": ["cheerio"]
+  }
+}
